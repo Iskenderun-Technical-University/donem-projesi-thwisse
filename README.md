@@ -12,4 +12,5 @@ Bu projede basit bir sifre yoneticisi yaptim. Kullanicilar uye oldugu sitelerde 
 Projede tek bir tablo kullandim. 
 HeidiSQL ve XAMPP programlarindan faydalandim.
 
-![alt text](https://images.app.goo.gl/E1LoJcfbRDm61Bh78)
+![tablo](https://www.hizliresim.com/hvth44v)
+![veriler](https://www.hizliresim.com/frcz8p4)
