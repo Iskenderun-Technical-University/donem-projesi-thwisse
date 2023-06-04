@@ -1,4 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/uelKf0-p)
+Demo Video Bağlantısı: https://drive.google.com/file/d/1OfYMqSL3of5DLp6C15eY23R8Iy2XSJ7P/view?usp=sharing
+
 # Oğuzhan Tutucu / 212523033
 # Donem Projesi
 
