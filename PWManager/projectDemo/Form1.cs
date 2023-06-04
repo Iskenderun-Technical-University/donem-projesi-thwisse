@@ -60,10 +60,6 @@ namespace projectDemo
                 websiteNameTextBox.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
                 websiteURLTextBox.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
 
-                // url tiklayinca acilsin
-
-                //websiteIcon  = dataGridView1.CurrentRow.Cells[3].Value.ToString();
-
                 string autoLoginVariable = dataGridView1.CurrentRow.Cells[4].Value.ToString();
 
                 if (autoLoginVariable == "1")
@@ -77,8 +73,6 @@ namespace projectDemo
 
                 usernameTextBox.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();
                 passwordTextBox.Text = dataGridView1.CurrentRow.Cells[6].Value.ToString();
-
-                // bu ikisinde kopyalama ikonu olsun
             }
             catch
             {
@@ -95,7 +89,6 @@ namespace projectDemo
             cmd.Parameters.AddWithValue("@id", idTextBox.Text);
             cmd.Parameters.AddWithValue("@websiteName", websiteNameTextBox.Text);
             cmd.Parameters.AddWithValue("@websiteURL", websiteURLTextBox.Text);
-            //cmd.Parameters.AddWithValue("@websiteIcon", websiteIcon); // ?
             cmd.Parameters.AddWithValue("@websiteAutoLogin", autoLogin);
             cmd.Parameters.AddWithValue("@username", usernameTextBox.Text);
             cmd.Parameters.AddWithValue("@password", passwordTextBox.Text);
@@ -162,7 +155,12 @@ namespace projectDemo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
